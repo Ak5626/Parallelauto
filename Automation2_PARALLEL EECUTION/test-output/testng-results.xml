@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-19T20:36:30 IST" name="Suite" finished-at="2023-05-19T20:36:31 IST" duration-ms="1160">
+  <suite started-at="2023-06-09T15:47:24 IST" name="Default suite" finished-at="2023-06-09T15:47:24 IST" duration-ms="769">
     <groups>
     </groups>
-    <test started-at="2023-05-19T20:36:30 IST" name="Test1" finished-at="2023-05-19T20:36:31 IST" duration-ms="1160">
+    <test started-at="2023-06-09T15:47:24 IST" name="Default test" finished-at="2023-06-09T15:47:24 IST" duration-ms="769">
       <class name="auto_tc.Tc1">
-        <test-method is-config="true" signature="startbrow(java.lang.String)[pri:0, instance:auto_tc.Tc1@50b5ac82]" started-at="2023-05-19T20:36:31 IST" name="startbrow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684508791437" status="FAIL">
+        <test-method is-config="true" signature="startbrow(java.lang.String)[pri:0, instance:auto_tc.Tc1@67080771]" started-at="2023-06-09T15:47:24 IST" name="startbrow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1686305844909" status="FAIL">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml]]>
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -31,16 +31,29 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startbrow -->
-        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:auto_tc.Tc1@50b5ac82]" started-at="2023-05-19T20:36:31 IST" name="tc1" data-provider="excel" finished-at="2023-05-19T20:36:31 IST" duration-ms="0" status="SKIP">
+        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:auto_tc.Tc1@67080771]" started-at="2023-06-09T15:47:24 IST" name="tc1" data-provider="excel" finished-at="2023-06-09T15:47:24 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -77,12 +90,12 @@ at java.base/java.lang.Thread.run(Thread.java:833)
             <message>
               <![CDATA[
 Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml]]>
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:270)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 at org.testng.internal.Parameters.createParameters(Parameters.java:700)
@@ -96,228 +109,33 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="aftermeth()[pri:0, instance:auto_tc.Tc1@50b5ac82]" started-at="2023-05-19T20:36:31 IST" name="aftermeth" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684508791474" status="SKIP">
+        <test-method is-config="true" signature="aftermeth()[pri:0, instance:auto_tc.Tc1@67080771]" started-at="2023-06-09T15:47:24 IST" name="aftermeth" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1686305844936" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftermeth -->
       </class> <!-- auto_tc.Tc1 -->
-      <class name="auto_tc.Tc2">
-        <test-method is-config="true" signature="startbrow(java.lang.String)[pri:0, instance:auto_tc.Tc2@74455848]" started-at="2023-05-19T20:36:31 IST" name="startbrow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684508791439" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startbrow -->
-        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:auto_tc.Tc2@74455848]" started-at="2023-05-19T20:36:31 IST" name="tc1" data-provider="excel" finished-at="2023-05-19T20:36:31 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumarsuresh93013@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Suresh@1908]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7878787878]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Serv]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Joey]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Joey66@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="aftermeth()[pri:0, instance:auto_tc.Tc2@74455848]" started-at="2023-05-19T20:36:31 IST" name="aftermeth" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684508791476" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermeth -->
-      </class> <!-- auto_tc.Tc2 -->
-      <class name="auto_tc.Tc3">
-        <test-method is-config="true" signature="startbrow(java.lang.String)[pri:0, instance:auto_tc.Tc3@4de4b452]" started-at="2023-05-19T20:36:31 IST" name="startbrow" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684508791439" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startbrow -->
-        <test-method signature="tc1(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:auto_tc.Tc3@4de4b452]" started-at="2023-05-19T20:36:31 IST" name="tc1" data-provider="excel" finished-at="2023-05-19T20:36:31 IST" duration-ms="0" status="SKIP">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kumarsuresh93013@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Suresh@1908]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[7878787878]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Serv]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Joey]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Joey66@gmail.com]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browsername' is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /Users/abishekb/mac-codes/Automation2_PARALLEL EECUTION/testng.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tc1 -->
-        <test-method is-config="true" signature="aftermeth()[pri:0, instance:auto_tc.Tc3@4de4b452]" started-at="2023-05-19T20:36:31 IST" name="aftermeth" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1684508791475" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermeth -->
-      </class> <!-- auto_tc.Tc3 -->
-    </test> <!-- Test1 -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
