@@ -5,8 +5,9 @@
     <classes>
       <class name="auto_tc.Tc1">
         <methods>
+          <include name="aftermeth"/>
           <include name="startbrow"/>
-          <include name="tc1" invocation-numbers="0"/>
+          <include name="tc1"/>
         </methods>
       </class> <!-- auto_tc.Tc1 -->
     </classes>

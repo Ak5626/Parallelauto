@@ -22,7 +22,7 @@ public class Basecode {
 	{
 		System.out.println(browsername);
 		if(browsername.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver 4");
+			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver");
 		   this.driver = new ChromeDriver();
 		    driver.get("https://www.zoho.com/crm/login.html");
 			driver.manage().window().maximize();
