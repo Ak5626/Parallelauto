@@ -1,15 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <parameter name="browsername" value="chrome"/>
     <classes>
       <class name="auto_tc.Tc1">
         <methods>
           <include name="aftermeth"/>
           <include name="startbrow"/>
-          <include name="tc1"/>
+          <include name="tc1" invocation-numbers="0"/>
         </methods>
       </class> <!-- auto_tc.Tc1 -->
+      <class name="auto_tc.Tc3">
+        <methods>
+          <include name="aftermeth"/>
+          <include name="startbrow"/>
+          <include name="tc3" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- auto_tc.Tc3 -->
+      <class name="auto_tc.Tc2">
+        <methods>
+          <include name="aftermeth"/>
+          <include name="startbrow"/>
+          <include name="tc2" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- auto_tc.Tc2 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
