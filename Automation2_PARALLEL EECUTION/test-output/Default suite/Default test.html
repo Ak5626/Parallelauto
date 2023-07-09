@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jun 09 15:47:24 IST 2023</td>
+<td>Started on:</td><td>Wed Jul 05 16:59:00 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (769 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (302 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -77,21 +77,15 @@ function toggleAllBoxes() {
 <tr>
 <td title='auto_tc.Tc1.startbrow()'><b>startbrow</b><br>Test class: auto_tc.Tc1</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml
+Parameter &apos;browsername&apos; is required by BeforeClass on method startbrow but has not been marked @Optional or defined
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1226686723/testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:270)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
@@ -108,23 +102,17 @@ in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-13223
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace913242382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace913242382'><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml
+</pre></div><a href='#' onClick='toggleBox("stack-trace1327536153", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1327536153'><pre>org.testng.TestNGException: 
+Parameter &apos;browsername&apos; is required by BeforeClass on method startbrow but has not been marked @Optional or defined
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1226686723/testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:270)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
@@ -142,8 +130,8 @@ in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-13223
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>-1686305844</td>
-<td>auto_tc.Tc1@67080771</td></tr>
+<td>-1688556540</td>
+<td>auto_tc.Tc1@3b07a0d6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -155,8 +143,8 @@ in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-13223
 <tr>
 <td title='auto_tc.Tc1.aftermeth()'><b>aftermeth</b><br>Test class: auto_tc.Tc1</td>
 <td></td>
-<td>-1686305844</td>
-<td>auto_tc.Tc1@67080771</td></tr>
+<td>-1688556540</td>
+<td>auto_tc.Tc1@3b07a0d6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -168,21 +156,15 @@ in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-13223
 <tr>
 <td title='auto_tc.Tc1.tc1()'><b>tc1</b><br>Test class: auto_tc.Tc1<br>Parameters: kumarsuresh93013@gmail.com, Suresh@1908, 7878787878, Serv, Joey, Joey66@gmail.com</td>
 <td><div><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml
+Parameter &apos;browsername&apos; is required by BeforeClass on method startbrow but has not been marked @Optional or defined
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1226686723/testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:270)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
@@ -199,23 +181,17 @@ in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-13223
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace548795052", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace548795052'><pre>org.testng.TestNGException: 
-Parameter &apos;browsername&apos; is required by BeforeMethod on method startbrow but has not been marked @Optional or defined
-in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1322379816/testng-customsuite.xml
+</pre></div><a href='#' onClick='toggleBox("stack-trace768415370", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace768415370'><pre>org.testng.TestNGException: 
+Parameter &apos;browsername&apos; is required by BeforeClass on method startbrow but has not been marked @Optional or defined
+in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-1226686723/testng-customsuite.xml
 	at org.testng.internal.Parameters.createParams(Parameters.java:270)
 	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:700)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
 	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
@@ -234,7 +210,7 @@ in /private/var/folders/7x/ksy07g9n6g7_7g1l_zf8ty2m0000gn/T/testng-eclipse-13223
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>auto_tc.Tc1@67080771</td></tr>
+<td>auto_tc.Tc1@3b07a0d6</td></tr>
 </table><p>
 </body>
 </html>

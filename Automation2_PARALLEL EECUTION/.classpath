@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
-		<attributes>
-			<attribute name="module" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="target/classes" path="src">
 		<attributes>
 			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
@@ -18,5 +18,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/abishekb/Downloads/mysql-connector-j-8.0.31/mysql-connector-j-8.0.31.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
